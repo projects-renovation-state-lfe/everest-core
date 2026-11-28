@@ -36,9 +36,9 @@ def _deps_impl(module_ctx):
     maybe(
         http_archive,
         name = "com_github_HowardHinnant_date",
-        url = "https://github.com/HowardHinnant/date/archive/refs/tags/v3.0.5.tar.gz",
-        sha256 = "ef786edc203daec76475825640b3af247bd08e31fc52217e5ce8f76107b4bb05",
-        strip_prefix = "date-3.0.5",
+        url = "https://github.com/HowardHinnant/date/archive/refs/tags/v3.0.6.tar.gz",
+        sha256 = "19f393877190e346ecbded5df4bbbb9bbfcc5aa57008becafeaacf5ea32d210b",
+        strip_prefix = "date-3.0.6",
         build_file = "@everest-core//third-party/bazel:BUILD.date.bazel",
     )
 
